@@ -29,6 +29,7 @@ def hello_world():
 #  如果是其他脚本调用本脚本，程序假定父级脚本会启用不同的服务器，因此不用执行app.run()
 #  服务器启动后，会启动轮询，等待并处理请求。轮询会一直请求，直到程序停止。
 
+# second push
 if __name__ == '__main__':
     print('dd', __name__)
     app.run(host="0.0.0.0", port=5002)
